@@ -1,0 +1,86 @@
+ /* welcome section  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.or{
+    color: rgba(244, 145, 40, 0.859);
+}
+/* devided in section */
+.flaxible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+/* set both sector width */
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+/* image width set  */
+.half-width img{
+    width: 70%;
+}
+/* hire button */
+.link-button{
+    background-image:linear-gradient( darkorange,rgb(255, 81, 0));
+    text-decoration:     none;  
+    padding: 10px 40px;       
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+}
+/* Whole backgroung image */
+.back-img{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+ /* welcome section End */
+
+ /* Dream section */
+ #pd{
+    padding-right: 80px;
+    margin-right: 20px;
+ }
+ #ta{
+    text-align:justify;
+ }
+ .back-image{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+
+/* Dream section End */
+
+/* Experience section */
+.box-shadow{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 19px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+}
+#bdr{
+    border-left: 9px solid red;
+    margin-right: 50px;
+}
+#bdb{
+    border-left: 9px solid blue;
+}
+.backgroung-img{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 1000 px;
+}
+/* Experience section end */
+
+/* Footer section */
+    footer p{
+        text-align: center;
+    }
+/* Footer section end */
